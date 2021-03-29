@@ -1,0 +1,28 @@
+--hecho
+1. mostrar lista de clientes
+2. tras elegir alguno, mostrar  sus cuentas; seguir el diseño de la interfaz
+3. tras elegir alguna, mostrar los movimientos; funciona pero no hay movimientos por lo que no aparecen, hay en nro=114061
+4.insertar datos para ser mostrados en la interfaz
+5.programar la interfaz de los puntos 1 2 3  ||  en el componenet sesion estan los movimientos 
+6. interfaz de transferencias
+9. pagos  vistas
+
+
+--haciendo
+7. perfil:   vistas: problema: no puedo renderizar (o pintar) los campos que me envia la db
+
+ 
+
+--continuar en :
+8. que en la lista de clientes se muestre numero de cuentas
+10.falta dar la opcion de periodo de los mivimientos
+11. En el navbar, llevar a hacer pago y a transferencias y al perfil. En hacer pago, mostrar el input de la cuenta 
+desde la cual se va a debitar. Lo mismo en transferencias. Pero mostrar las cuentas que tiene el cliente en ambos servicios bancarios
+
+
+--observaciones
+redefino el diseño de la interfaz:
+las cuentas de un cliente van en la parte superior. Ya no solo en cuentas
+falta join en mostrar perfil
+como se usares.redirect me invento:
+desde cliente.mostra sus cuentas redirijo a cuentas.mostrar cuentas del cliente0
