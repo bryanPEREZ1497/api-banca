@@ -23,11 +23,13 @@ pago.hacerPago = async (req, res) => {
 
 
             res.json({
-                mensaje: 'Pago exitoso'
+                mensaje: 'Pago exitoso',
+                hecho: true
             });
         }
         res.json({
-            mensaje: 'El Pago falló. No todos los campos están completos'
+            mensaje: 'El Pago falló. No todos los campos están completos',
+            hecho: false
         });
 
     }
