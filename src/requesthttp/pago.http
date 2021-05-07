@@ -1,0 +1,10 @@
+POST http://localhost:3000/hacer-pago
+content-type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjIwMzkzMTUzLCJleHAiOjE2MjA0Nzk1NTN9.9rZAtdsPrOfNKvKmHr-wTdEiv3CxcjMT1sjhebpiTbs
+
+{
+    "fecha":"2021-6-5",
+    "servicio":"3",
+    "monto":6,
+    "cuenta_a_debitar":"376136"
+}
