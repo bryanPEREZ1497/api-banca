@@ -18,8 +18,9 @@ app.use(require('./routes/transferencia.routes'));
 app.use(require('./routes/cuenta.routes'));
 app.use(require('./routes/pago.routes'));
 app.use(require('./routes/cliente.routes'));
-app.use(require('./routes/perfil.routes'));//es decir, persona
+app.use(require('./routes/perfil.routes'));
 app.use('/auth', require('./routes/auth.routes'));
+
 app.listen(app.get('port'), () => {
     console.log(`Server on port ${app.get('port')}`);
 });
